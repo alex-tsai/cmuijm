@@ -14,7 +14,7 @@ h1, h4, h5{
 #intro{
   padding:1% 0 2em 10%;
   background-image: url(../images/background.jpg);
-  background-position:top right;
+  background-position:80% 0%;
   background-attachment: fixed;
 }
 a{
