@@ -1,0 +1,86 @@
+body{
+  background-color:#222;
+}
+h1, h4, h5{
+  font-family:"Droid Sans";
+  font-weight:700;
+  letter-spacing: 0.1em;
+}
+#title{
+  margin-bottom:22%;
+  font-size:0.8em;
+  width:100%;
+}
+#intro{
+  padding:1% 0 2em 10%;
+  background-image: url(../images/background.jpg);
+  background-attachment: fixed;
+}
+a{
+  color:#0178c7;
+  font-weight:600;
+  text-decoration:none;
+  border-bottom:2px solid #0178c7;
+}
+.click{
+  font-family:"Droid Sans";
+  font-weight:700;
+  letter-spacing: 0.1em;
+  color:#222;
+  text-decoration: none;
+  border:3px solid #222;
+  border-radius:5px;
+  padding:0.5em 1em 0.5em 1em;
+}
+.click:hover{
+  background-color:#0178c7;
+  border-color:#0178c7;
+  color:#FFF;
+}
+#whatwedo{
+  padding:2% 10% 0 10%;
+  background-color:#0178c7;
+  color:#FFF;
+}
+#whatwedo h5{
+  font-size:0.9em;
+  margin-top:2em;
+}
+#content{
+  padding:2% 10% 0 10%;
+  color:white;
+  background-color:#222;
+}
+@media(min-width:400px){
+  #info{
+    min-width:230px;
+    margin-bottom:1em;
+  }
+  #education{
+    min-width:400px;
+  }
+}
+#education p{
+  max-width:500px;
+}
+li{
+  list-style: none;
+}
+li img{
+  height:1.3em;
+  margin-right:0.8em;
+  vertical-align:middle;
+}
+h4 img{
+  height:1.5em;
+  margin-right:0.3em;
+  vertical-align:middle;
+}
+#edulink{
+  color:#FFF;
+  border:3px solid white;
+}
+#edulink:hover{
+  color:#222;
+  background-color:#FFF;
+}
